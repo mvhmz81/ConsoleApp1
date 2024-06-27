@@ -59,17 +59,27 @@ namespace WorkingWithCollections
             Console.WriteLine(myDictionary["B2"].Make);
             */
             //string[] names = { "Bob", "Steve", "Brian", "Chuck" };
+
             //object initializer syntax which doesnt need a constructor as before
             //Car car1 = new Car() { Make = "BMW", Model = "750li", VIN = "C3" };
             //Car car2 = new Car() { Make = "Toyota", Model = "4Runner", VIN = "D4" };
 
             //Collection Initializer with object initiaklizers
-            List<Car> myList = new List<Car>();
+
+            List<Car> myList = new List<Car>()
             {
-                new Car { Make = "OLdsmobile", Model = "Cutlas Supreme", VIN = "E5" };
-                new Car { Make = "Nissan", Model = "Altima", VIN = "F6" };
+                new Car { Make = "OLdsmobile", Model = "Cutlas Supreme", VIN = "E5" },
+                new Car { Make = "Nissan", Model = "Altima", VIN = "F6" },
             };
+       
+            foreach (Car car in myList)
+            {
+                Console.WriteLine(car.Make);
+            }
+
+            // Pause the program so the output can be seen
             Console.ReadLine();
+
 
         }
     }
