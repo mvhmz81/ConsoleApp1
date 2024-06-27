@@ -33,11 +33,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decisions", "Decisions\Deci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "Variables\Variables.csproj", "{05755520-8D5B-4D30-9AA7-98E41122BD1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson18", "Lesson18\Lesson18.csproj", "{BACBEDC3-E499-4B6D-A0F3-CC796D26EF15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson18", "Lesson18\Lesson18.csproj", "{BACBEDC3-E499-4B6D-A0F3-CC796D26EF15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tomato", "Tomato\Tomato.csproj", "{277085FF-C825-46AB-98D2-42E1CF2ED49C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tomato", "Tomato\Tomato.csproj", "{277085FF-C825-46AB-98D2-42E1CF2ED49C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapeLibrary", "ScrapeLibrary\ScrapeLibrary.csproj", "{9CFF6D68-3543-43AD-89B3-FD6BB5E74B00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScrapeLibrary", "ScrapeLibrary\ScrapeLibrary.csproj", "{9CFF6D68-3543-43AD-89B3-FD6BB5E74B00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCollections", "WorkingWithCollections\WorkingWithCollections.csproj", "{1E1289AC-D17D-49E9-B885-292848D9AF5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{9CFF6D68-3543-43AD-89B3-FD6BB5E74B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CFF6D68-3543-43AD-89B3-FD6BB5E74B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CFF6D68-3543-43AD-89B3-FD6BB5E74B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1289AC-D17D-49E9-B885-292848D9AF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1289AC-D17D-49E9-B885-292848D9AF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1289AC-D17D-49E9-B885-292848D9AF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1289AC-D17D-49E9-B885-292848D9AF5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
