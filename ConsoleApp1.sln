@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScrapeLibrary", "ScrapeLibr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCollections", "WorkingWithCollections\WorkingWithCollections.csproj", "{1E1289AC-D17D-49E9-B885-292848D9AF5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithLINQ", "WorkingWithLINQ\WorkingWithLINQ.csproj", "{222761D2-82A9-4DB3-A9F1-3D1C15AC68DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{1E1289AC-D17D-49E9-B885-292848D9AF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E1289AC-D17D-49E9-B885-292848D9AF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E1289AC-D17D-49E9-B885-292848D9AF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222761D2-82A9-4DB3-A9F1-3D1C15AC68DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222761D2-82A9-4DB3-A9F1-3D1C15AC68DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222761D2-82A9-4DB3-A9F1-3D1C15AC68DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222761D2-82A9-4DB3-A9F1-3D1C15AC68DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
