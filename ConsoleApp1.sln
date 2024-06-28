@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCollections", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithLINQ", "WorkingWithLINQ\WorkingWithLINQ.csproj", "{222761D2-82A9-4DB3-A9F1-3D1C15AC68DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumsAndSwitch", "EnumsAndSwitch\EnumsAndSwitch.csproj", "{20A39021-93A1-4C31-956C-5DA23F08F9D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{222761D2-82A9-4DB3-A9F1-3D1C15AC68DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{222761D2-82A9-4DB3-A9F1-3D1C15AC68DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{222761D2-82A9-4DB3-A9F1-3D1C15AC68DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A39021-93A1-4C31-956C-5DA23F08F9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A39021-93A1-4C31-956C-5DA23F08F9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A39021-93A1-4C31-956C-5DA23F08F9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A39021-93A1-4C31-956C-5DA23F08F9D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
