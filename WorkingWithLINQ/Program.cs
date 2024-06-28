@@ -60,10 +60,17 @@ namespace WorkingWithLINQ
 
             //total sum car value
             Console.WriteLine(myCars.Sum(c => c.StickerPrice));
+            //to find type of the data presented
+            Console.WriteLine(myCars.GetType());
+            Console.WriteLine(orderedCars.GetType());
+            Console.WriteLine(bmws.GetType());
 
-           //Continue 6:38
-
-
+            var newCars = from car in myCars
+                       where car.Make == "BMW"
+                       && car.Year == 2010
+                       select new {car.Make, car.Model};
+            //Anonymous Types: Using select new creates an anonymous type. This is useful when you only need a subset of the properties from the original type.
+            Console.WriteLine(newCars.GetType());
 
             Console.ReadLine();
             
