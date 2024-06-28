@@ -26,23 +26,41 @@ namespace EnumsAndSwitch
                 new Todo { Description = "Task 14", EstimatedHours = 16, Status = Status.Completed }
             };
             // Example: Print all todos
-            foreach (var todo in todos)
+            //foreach (var todo in todos)
             //{
             //    Console.WriteLine($"{todo.Description}, Estimated Hours: {todo.EstimatedHours}, Status: {todo.Status}");
             //}
-            Console.ForegroundColor = ConsoleColor.Red; 
-
+            Console.ForegroundColor = ConsoleColor.Red; //allows change of console color
+            //call method
             PrintAssessment(todos);
-
-
             // Pause the program to see the output
             Console.ReadLine();
         }
         private static void PrintAssessment(List<Todo>todos)
         {
             foreach (var todo in todos)
-            {
-
+            {   
+                switch (todo.Status)    
+                {
+                    case Status.NotStarted:
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        break;
+                    case Status.InProgress:
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        break;
+                    case Status.OnHold: 
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        break;
+                    case Status.Completed:
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        break;
+                    case Status.Deleted:
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        break;
+                    default:
+                        break;    
+                }
+                Console.WriteLine(todo.Description);    
             }
         }
     }
