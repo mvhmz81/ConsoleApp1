@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="button" Content="Click Me!" HorizontalAlignment="Left" Margin="85,64,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Label Content="" Name ="myLabel"  HorizontalAlignment="Left" Margin="420,163,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="myOtherLable" Content="" HorizontalAlignment="Left" Margin="230,189,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
